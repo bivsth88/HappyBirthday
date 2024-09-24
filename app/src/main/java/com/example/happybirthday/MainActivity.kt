@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     GreetingImage(
                         message = getString(R.string.happy_birthday_text),
-                        from = "From Emma",
+                        from = "From George",
                         modifier = Modifier.padding(8.dp)
                     )
                 }
